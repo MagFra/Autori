@@ -13,7 +13,7 @@ namespace Autori
         {
             System.Text.StringBuilder line = new System.Text.StringBuilder( Console.ReadLine()); string result = "";
             //line = line.Trim();
-            result += line[1];
+            result += line[0];
             for (int i = 0; i < line.Length; i++)
             {
                 if (line[i] == '-') { result += line[i + 1]; }
